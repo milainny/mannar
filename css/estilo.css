@@ -1,0 +1,341 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poiret+One|Open+Sans+Condensed:300');
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+	background: transparent;
+}
+
+body {
+	height: 100% !important;
+	width: 100%;
+	background: rgb(34,28,90);
+	background-image:url("../img/bg.png"), center scroll;
+	background-image: -moz-linear-gradient(45deg, rgba(34,28,90,1) 0%, rgba(44,113,122,1) 66%, rgba(40,71,100,1) 100%);
+	background-image: -webkit-linear-gradient(45deg, rgba(34,28,90,1) 0%, rgba(44,113,122,1) 66%, rgba(40,71,100,1) 100%);
+	background-image: linear-gradient(45deg, rgba(34,28,90,1) 0%, rgba(44,113,122,1) 66%, rgba(40,71,100,1) 100%);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+header.menutop{
+	width: 100%;
+	height: 40px;
+	background:#242424;
+	background-image: -moz-linear-gradient(circle, rgba(52,49,49,1) 0%, rgba(38,46,48,1) 100%);
+	background-image: -webkit-linear-gradient(circle, rgba(52,49,49,1) 0%, rgba(38,46,48,1) 100%);
+	background-image: linear-gradient(circle, rgba(52,49,49,1) 0%, rgba(38,46,48,1) 100%);
+}
+
+
+.box-menutop{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.box-menutop li, .box-menutop h1{
+	font-weight: normal;
+	font-size: 10pt;
+	font-family: 'Poiret One', cursive;	 
+	color: #FFFFFF;
+	width: 110px;
+	float: left;
+	padding-top: 10px;
+}
+
+.box-menutop h1:hover, .box-menutop li:hover{
+	color: #39ff14;
+	text-decoration: none;
+}
+
+.box-menutop a:link, .box-menutop a:active{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.bt-cor, .bt-cor h1, .bt-cor a:link, .bt-cor a:active{
+	margin-top: 6px;
+	width: 120px;
+	height: 27px;
+	text-align: center;
+	background: #FFFFFF;
+	border-radius: 20px;
+	font-weight: normal;
+	font-size: 16pt;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	
+}
+
+.bt-cor:hover, .bt-cor h1:hover, .bt-cor a:hover{
+	background: #000000;
+	color:  #39ff14;
+	
+}
+
+
+
+.menutop-esquerdo{
+	float: left;
+}
+
+.menutop-direito{
+	float: right;
+}
+
+header{
+	width: 100%;
+	height: auto;
+
+}
+
+main {
+	
+	width: 100%;
+	height: auto;
+
+}
+
+footer{
+	position:relative;
+	bottom: 0px;
+	margin-top: 8%;
+	padding-top: 30px;
+	width: 100%;
+	height: 280px;
+	background:#242424;
+	background-image: -moz-linear-gradient(circle, rgba(52,49,49,1) 0%, rgba(38,46,48,1) 100%);
+	background-image: -webkit-linear-gradient(circle, rgba(52,49,49,1) 0%, rgba(38,46,48,1) 100%);
+	background-image: linear-gradient(circle, rgba(52,49,49,1) 0%, rgba(38,46,48,1) 100%);
+	
+}
+
+.space-direitos {margin-top: 50px;}
+
+img.footer {
+	margin-top: 20px;
+}
+
+#footer_box{
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+.footer-floo{
+	width: 300px;
+	float: left;
+	
+}
+
+.footer-floo h1{
+	font-weight: normal;
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-family: 'Poiret One', cursive;	 
+}
+
+.footer-floo h1:hover{
+	color: #39ff14;	 
+}
+
+.footer-floo li{
+	padding-top: 20px;
+	padding-left: 70px;
+	transition: 0.3s;
+}
+
+.footer-floo li, a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer-floo li, a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer-floo li, a:active{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav.menu {
+	width: 680px;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+nav.menu li{
+	margin: 15px;
+}
+
+ul, li{
+		list-style-type: none;
+}
+
+.itens-menu{
+	width: 180px;
+	float: left;
+	border-color:#0E6EA9;
+	border-width:3px;
+	border-style:solid;
+	transition: 0.3s;
+	opacity: 0.6;
+}
+
+.itens-menu:hover{
+	opacity: 1;
+	background: #D63D3F;
+	border-color: #FFFFFF;
+	width: 200px;
+	height: 55px;
+	padding-top: 5px;
+}
+
+.itens-menu a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.itens-menu a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.itens-menu a:active{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.clear {clear: both;}
+
+.logo {
+	width: 100%;
+	height:auto;
+	text-align: center;
+	margin-top: 5%;
+	transition: 0.5s;
+}
+
+.logo:hover{
+	font-size: 100pt;
+}
+
+.box_upload{
+	width: 12%;
+	height: 0 auto;
+	margin: 0 auto;
+	margin-top: 5%;
+	text-align: center;
+	transition: 0.5s;
+	opacity: 0.3;
+
+}
+.box_upload:hover{
+	opacity: 1;
+}
+
+h1.logo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-size: 72pt;
+}
+
+h2.upload {
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 18pt;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1.menu {
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 26pt;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1.footer{
+	font-weight: normal;
+	color: #FFFFFF;
+	font-size: 14pt;
+	text-align: center;
+	font-family: 'Poiret One', cursive;	
+}
+
+img.box_upload{
+	width: 150px;
+	height: 150px;
+	border: 0;
+	cursor: pointer;
+}
+
+
+.box_upload input[type="file"] {
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	opacity: 0.4;
+}
+
+.box_upload input[type="file"]:focus {
+	outline: none;
+}
+
+.box_upload label{
+	cursor: pointer;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+
+main.page {
+	
+	background: rgba(14,110,169,0.2);
+	width: 960px;
+	height: 0 auto;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 30px;
+}
+
+main.page h1{
+	font-family: 'Poiret One', cursive;
+	font-size: 18pt;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+main.page p{
+	padding-bottom: 20px;
+	font-weight: normal;
+	font-family: 'Poiret One', cursive;
+	text-align: justify;
+	color: #FFFFFF;
+	font-size: 16pt;
+	
+	
+}
